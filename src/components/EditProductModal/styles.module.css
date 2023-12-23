@@ -1,0 +1,86 @@
+.editProductForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid #5bc0de;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancelButton,
+.submitButton {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.cancelButton {
+  background-color: #d9534f;
+  color: #fff;
+}
+
+.submitButton {
+  background-color: #5bc0de;
+  color: #fff;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeBtn {
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+h2 {
+  color: #000;
+}
+
+textarea {
+  width: 100%;
+  max-width: 200px;
+  min-width: 200px;
+  min-height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+}
+
+textarea:focus {
+  outline: none;
+  border: 3px solid #5bc0de;
+}
